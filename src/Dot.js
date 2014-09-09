@@ -23,4 +23,5 @@ Dot.prototype.florp = function() {
   this.x += random(3) - 1;
   this.y += random(3) - 1;
   this.color++;
+  this.diameter++;
 };
